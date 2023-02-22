@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "meueadflix",
+    "password": "meueadflix",
+    "database": "meueadflix_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "meueadflix",
+    "password": "meueadflix",
+    "database": "meueadflix_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "meueadflix",
+    "password": "meueadflix",
+    "database": "meueadflix_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
