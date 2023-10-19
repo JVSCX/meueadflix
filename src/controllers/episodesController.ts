@@ -5,7 +5,7 @@ import { episodeService } from "../services/episodeService";
 export const episodesController = {
   // GET /episodes/stream
   stream: async (req: Request, res: Response) => {
-    const { videoUrl } = req.body;
+    const { videoUrl } = req.query;
 
     try {
       if (typeof videoUrl !== "string")
